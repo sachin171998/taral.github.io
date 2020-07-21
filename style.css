@@ -77,6 +77,7 @@ header {
 
 header .logo {
     width: 30%;
+    max-width: 100%;
     /* background-color: yellow; */
     display: flex;
     text-transform: capitalize;
@@ -259,7 +260,7 @@ header .links .button {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    z-index: 2;
+    z-index: auto;
     margin-left: 140px;
     margin-top: 50px;
 }
@@ -461,11 +462,11 @@ header .links .button {
 
 .businessglobally {
     position: absolute;
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 22rem;
-    height: 130px;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 47rem;
+    height: 125px;
     background-color: rgb(141, 182, 85);
     display: flex;
     justify-content: space-between;
@@ -722,7 +723,8 @@ footer::after {
         position: fixed;
         z-index: 1;
         /* margin-left: 19rem; */
-        margin-left:9rem ;
+        /* margin-left:9rem ; */
+        margin-left: 14rem;
     }
 
     .mainsidenav {
@@ -970,9 +972,11 @@ footer::after {
     }
     
     .companyaboutus {
-        width: 80%;
+        /* width: 80%; */
+        width:88%;
         height: 300px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
+        margin-left: 20px;
         /* margin-bottom: 140px; */
         margin-bottom:10px ;
        
@@ -1021,15 +1025,18 @@ footer::after {
 
 .businessglobally {
     
-    margin-top: 39rem;
+    /* margin-top: 39rem; */
+    /* margin-top:39rem ; */
+    margin-top: 78rem;
     height: 70px;
-   
+    
     
 }
 
 .businessglobally h1 {
     color: white;
-    font-size:15px;
+    font-size: 12px;
+    /* font-size:15px; */
 }
 
 .businessglobally a {
