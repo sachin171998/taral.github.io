@@ -1,0 +1,1079 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "compass/css3";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+a {
+    text-decoration: none;
+}
+
+/* company head detail */
+
+.companyhead {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(0, 30, 87);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyhead h3 {
+    margin-top: 18px;
+    margin-left: 90px;
+}
+
+.conpanyheading {
+    width: 30%;
+    height: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(30, 33, 39);
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.companycontact {
+    width: 30%;
+    margin-right: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    /* background-color:green ; */
+}
+
+.companycontact i {
+    color: rgb(140, 182, 84)!important;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* header start */
+
+header {
+    width: 100%;
+    height: 80px;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+/* header logo */
+
+header .logo {
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    text-transform: capitalize;
+}
+
+header h2 {
+    color: rgb(1, 30, 90);
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+/* header links */
+
+header .links {
+    width: 45%;
+    height: 45px;
+    /* background-color:black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.links #mainlink {
+    color: rgb(140, 182, 84);
+}
+
+header .links a {
+    color: black;
+}
+
+header .links a:hover {
+    color: green;
+}
+
+header .links .button {
+    background-color: rgb(140, 182, 84);
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+/* sidenav  */
+
+.sidenav {
+    display: none;
+}
+
+.mainsidenav {
+    display: none;
+}
+
+
+/* taral corporation experts in global sourcing style */
+
+.thinkglobal {
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    /* background-image:url(img/construction.png); */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/construction.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: grayyscale(1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thinkglobalinfo {
+    width: 30%;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 120px;
+    /* background-color:red ; */
+}
+
+.thinkglobalinfo h1 {
+    /* font-size:60px ; */
+    font-size: 3.75em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.thinkglobalinfo p {
+    /* font-size:20px ; */
+    font-size: 1.25em;
+    color: white;
+}
+
+.thinkglobalinfo a {
+    background-color: rgb(140, 182, 84);
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/* taral corporate info style */
+
+.taralinfo {
+    width: 100%;
+    height: 700px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.firstbox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 300px;
+    /* background-color:yellowgreen ; */
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.firstcompanyinfo {
+    width: 50%;
+    height: 280px;
+    /* background-color: hotpink; */
+}
+
+.firstcompanyinfo p {
+    margin-top: 30px;
+    /* font-size: 20px; */
+    font-size: 1.25em;
+    padding: 10px;
+    margin-left: 30px;
+    color: rgb(183, 183, 183);
+}
+
+.firstcompanyinfo h2 {
+    font-size: 3em;
+    margin-left: 30px;
+    color: rgb(1, 31, 88);
+}
+
+.firstimg {
+    width: 50%;
+    height: 280px;
+    background-color: khaki;
+}
+
+.firstimg img {
+    width: 607px;
+    height: 280px;
+    max-width: 100%;
+}
+
+.secondbox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 300px;
+    /* background-color:hotpink ; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbershow {
+    width: 40%;
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.minibox {
+    width: 33%;
+    background-color: white;
+    text-align: center;
+    box-shadow: whitesmoke;
+}
+
+.minibox h1 {
+    margin-top: 40px;
+    /* font-size: 2rem; */
+    font-size: 2em;
+    padding: 5px;
+    color: rgb(140, 182, 84);
+}
+
+.secondimg {
+    width: 50%;
+    height: 300px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 610px;
+    /* background-color: khaki; */
+}
+
+.secondimg img {
+    width: 608px;
+    height: 300px;
+    max-width: 100%;
+}
+
+/* company register with us start */
+
+.register {
+    width: 100%;
+    height: 580px;
+    /* background-color:red ; */
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.registerheading {
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5rem;
+    /* background-color: yellow; */
+}
+
+.registerheading p {
+    padding: 5px;
+    color: rgb(178, 178, 178);
+    font-size: 1em;
+}
+
+.registerheading h1 {
+    text-transform: uppercase;
+    /* font-size: 50px; */
+    font-size: 3.125em;
+    color: rgb(0, 30, 87);
+}
+
+.cardcollection {
+    width: 90%;
+    height: 340px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color:pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 20%;
+    height: 280px;
+    background-color: rgb(243, 245, 249);
+    /* background-color: rgb(143, 145, 149); */
+    text-align: center;
+    border-bottom: 3px solid black;
+    position: relative;
+}
+
+.card::before {
+    position: absolute;
+    content: '\a0 >';
+    /* font-family: FontAwesome; */
+    border-radius: 50%;
+    padding: 30px;
+    background-color: white;
+    /* margin-bottom:-300px;    */
+    margin-top: 240px;
+}
+
+.card img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.card h2 {
+    color: rgb(46, 47, 47);
+    padding: 4px;
+    text-transform: capitalize;
+}
+
+.card p {
+    color: rgb(92, 92, 92);
+    padding: 30px;
+    font-size: 1em;
+    /* margin-left:3px!important ;
+   margin-right:3px!important ; */
+}
+
+/* company about us */
+
+.aboutus {
+    width: 100%;
+    height: 450px;
+    background-image: url(img/Image__243539_1494358282.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.companyaboutus {
+    width: 40%;
+    height: 300px;
+    margin-left: 750px;
+    background-color: white;
+}
+
+.companyaboutus h1 {
+    text-transform: capitalize;
+    color: rgb(0, 30, 87);
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.companyaboutus p {
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 3rem;
+    font-size: 1em;
+}
+
+.companyaboutus a {
+    padding-top: 10px;
+    margin-left: 3rem;
+    text-decoration: underline;
+    color: rgb(140, 182, 84);
+}
+
+.undelinetitleone::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 1px;
+    margin: 3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+    background: linear-gradient(143.22deg, rgb(0, 30, 87) 19.21%, rgb(140, 182, 84) 93.4%);
+}
+
+/* who we are section style start */
+
+.weare {
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.undelinetitle::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 1px;
+    margin: 3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    background: linear-gradient(143.22deg, rgb(0, 30, 87) 19.21%, rgb(140, 182, 84) 93.4%);
+}
+
+/* want to grow your business globally */
+
+.businessglobally {
+    position: absolute;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 22rem;
+    height: 130px;
+    background-color: rgb(141, 182, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: auto;
+}
+
+.businessglobally h1 {
+    color: white;
+    font-size: 1.500em;
+}
+
+.heading {
+    margin-left: 3rem;
+}
+
+.headingbutton {
+    margin-right: 3rem;
+}
+
+.businessglobally a {
+    background-color: white;
+    color: rgb(1, 31, 88);
+    border-radius: 3px;
+    border: solid 1px whitesmoke;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.weareimg {
+    width: 50%;
+    height: 600px;
+    background-color: pink;
+}
+
+.weareimg img {
+    width: 675px;
+    height: 600px;
+    max-width: 100%;
+}
+
+.weareinfo {
+    width: 50%;
+    height: 600px;
+    /* background-color: yellow; */
+}
+
+.singleparaheading {
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.weareinfo h1 {
+    /* font-size: 50px; */
+    font-size: 3.125em;
+    text-transform: capitalize;
+    color: rgb(0, 30, 87);
+    margin-left: 30px;
+}
+
+.weareinfo h2 {
+    /* font-size: 20px; */
+    font-size: 1.25em;
+    text-transform: capitalize;
+    margin-left: 30px;
+    color: rgb(175, 175, 175);
+    padding: 8px;
+    padding-top: 20px;
+}
+
+.weareinfo h4 {
+    margin-left: 60px;
+    /* font-size: 15px; */
+    font-size: 0.9375em;
+    padding: 5px;
+}
+
+.weareinfo h4 i {
+    color: rgb(140, 182, 84);
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.weareinfo h6 {
+    /* font-size: 200px; */
+    font-size: 12.5em;
+    margin-left: 30px;
+    color: rgb(80, 80, 80);
+}
+
+.footerinfo {
+    /* font-size: 18px; */
+    font-size: 1.125em;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+/* company footer style start */
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(3, 14, 34);
+    color: white;
+}
+
+footer::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 2px;
+    margin: 3px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-color: rgb(29, 38, 56);
+}
+
+.footercompanyinfo {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footercard {
+    width: 30%;
+    height: 300px;
+}
+
+.footeraboutus p {
+    padding: 5px;
+    font-size: 1em;
+}
+
+.footeraboutus a {
+    background-color: rgb(3, 14, 34);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px whitesmoke;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 15px!important;
+}
+
+.footercard::before {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    margin: 3px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    background-color: rgb(29, 38, 56);
+}
+
+.footercontact p {
+    padding: 5px;
+    font-size: 1em;
+}
+
+.footercontact a {
+    padding: 5px;
+    color: rgb(140, 182, 84);
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(109, 213, 104);
+}
+
+/* last footer content */
+
+.footername {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(3, 14, 34);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+}
+
+.companyfooterinfo {
+    width: 90%;
+    height: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.copyrightinfo {
+    text-transform: capitalize;
+}
+
+#companyfootername {
+    color: rgb(140, 182, 84);
+}
+
+/* begin begin Back to Top button  */
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 9999;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    background: rgb(23, 24, 29);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+}
+
+.back_to_top:hover {
+    background: #e9ebec;
+    color: black;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+/* end begin Back to Top button  */
+
+@media only screen and (max-width: 780px) {
+
+     /* mobile sidenav 768px */
+     .sidenav {
+        display: block;
+        /* margin-right:30px ; */
+        font-size: 1.5em;
+        cursor: pointer;
+        position: fixed;
+        z-index: 1;
+        /* margin-left: 19rem; */
+        margin-left:9rem ;
+    }
+
+    .mainsidenav {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        background: #272634;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: all 0.5s;
+        display: block;
+    }
+    .mainsidenav a {
+        display: block;
+        padding: 20px;
+        margin-left: 80px;
+        color: white;
+        text-transform: capitalize;
+    }
+    .logol {
+        font-size: 2em;
+    }
+
+
+/* taral corporation experts in global sourcing style */
+
+.thinkglobal {
+    width: 100%;
+    height: 500px;
+    
+   
+   
+}
+
+.thinkglobalinfo {
+    width: 80%;
+    /* height: 250px; */
+    height:300px;
+    /* margin-left: 80px; */
+    margin-left:50px ;
+    margin-top: 120px;
+    /* background-color:red ; */
+}
+
+
+
+.thinkglobalinfo p {
+    /* font-size:20px ; */
+    /* font-size: 1.25em; */
+    font-size: 15px;
+  
+}
+
+.thinkglobalinfo a {
+   
+    margin-top: 27px;
+   
+}
+
+
+/* taral corporate info style */
+
+.taralinfo {
+    width: 100%;
+    height: 1200px;
+    /* background-color: red; */
+   
+}
+
+.firstbox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 700px;
+    /* background-color:yellowgreen ; */
+  
+   
+}
+
+.firstcompanyinfo {
+    /* width: 50%; */
+    width:100%;
+    /* height: 280px; */
+    height: 300px;
+    /* background-color: hotpink; */
+}
+
+.firstcompanyinfo h2 {
+    font-size: 2em;
+    padding: 10px;
+    margin-left: 1px;
+    color: rgb(1, 31, 88);
+}
+
+
+.firstimg {
+    /* width: 50%; */
+    width:100%;
+    height: 280px;
+    /* background-color: khaki; */
+}
+
+.firstimg img {
+    width: 607px;
+    height: 280px;
+    max-width: 100%;
+}
+
+.secondbox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 300px; */
+    height: 400px;
+    /* background-color:hotpink ; */
+  
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/secondimg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.numbershow {
+    width: 80%;
+   
+    /* margin-left: 140px; */
+    margin-left:20px ;
+    margin-top: 90px;
+    /* background-color: red; */
+}
+.secondimg {
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 610px;
+    /* background-color: khaki; */
+    display: none;
+}
+
+
+
+/* head top */
+
+    .companyhead {
+        width: 100%;
+        height: 4rem;
+        /* background-color: yellow; */
+       
+    }
+    
+    .companyhead h3 {
+        margin-top: 25px;
+        margin-left: 8px;
+        font-size: 11px;
+      
+    }
+    
+    .conpanyheading {
+        width: 50%;
+        height: 4rem;
+       
+        /* background-color:hotpink; */
+       
+    }
+    .companycontact {
+        /* width: 65%; */
+        width:40%;
+        height:50px;
+        margin-right: 1rem;
+       
+        /* background-color:green ; */
+    }
+    
+    .companycontact p{
+        font-size:10px ;
+    }
+
+    .links a{
+        display:none;
+
+
+    }
+    /* company register with us start */
+
+
+
+.register {
+    width: 100%;
+    /* height: 580px; */
+    height:1900px;
+    /* background-color:red ; */
+   
+}
+
+.registerheading {
+    width: 90%;
+    height: 200px;
+   
+    /* background-color: yellow; */
+}
+
+.registerheading p {
+    padding: 14px;
+  
+    font-size: 1em;
+}
+
+.registerheading h1 {
+  
+    /* font-size: 50px; */
+    /* font-size: 3.125em; */
+    font-size:36px ;
+  
+   
+}
+
+
+.cardcollection {
+    width: 90%;
+    /* height: 1550px; */
+    height:1900px;
+   
+    /* background-color:pink; */
+   
+}
+
+.card {
+    width: 90%;
+    height: 280px;
+   
+}
+
+
+    /* about us */
+
+    .aboutus {
+        width: 100%;
+        /* height: 450px; */
+        height: 500px;
+        background-size: 100%100%;
+      
+     
+    }
+    
+    .companyaboutus {
+        width: 80%;
+        height: 300px;
+        margin-left: 50px;
+        /* margin-bottom: 140px; */
+        margin-bottom:10px ;
+       
+       
+       
+    }
+    .companyaboutus h1 {
+        text-transform: capitalize;
+        color: rgb(0, 30, 87);
+        margin-top: 3rem;
+        margin-left: 3rem;
+       
+    }
+
+
+    /* who we are section style start */
+    .weare {
+        width: 100%;
+        height: 1250px;
+        background-color: red;
+       
+    }
+
+    .weareimg {
+        width: 100%;
+       
+    }
+    .weareimg img {
+        width: 750px;
+        height: 600px;
+        max-width: 100%;
+    }
+
+    .weareinfo {
+        width: 100%;
+        height: 650px;
+        background-color: yellow;
+    }
+
+    .weareinfo h1 {
+        /* font-size: 50px; */
+        font-size: 2em;
+       
+    }
+    /* want to grow your business globally */
+
+.businessglobally {
+    
+    margin-top: 39rem;
+    height: 70px;
+   
+    
+}
+
+.businessglobally h1 {
+    color: white;
+    font-size:15px;
+}
+
+.businessglobally a {
+  
+   
+   
+    padding: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer::after {
+   
+    /* margin-left: 50px; */
+    margin-left:20px ;
+   
+}
+
+    footer {
+        height: 1100px;
+    }
+    .footercompanyinfo {
+        height: 1000px;
+    }
+    .footercard {
+        width: 100%;
+        /* height: 300px; */
+        height:250px;
+        /* background-color: lawngreen; */
+    }
+    /* last footer content */
+    .footername {
+        width: 100%;
+        height: 80px;
+    }
+    .companyfooterinfo {
+        width: 100%;
+        height: 50px;
+    }
+    .copyrightinfo {
+        font-size: 15px;
+    }
+
+    
+
+
+}
